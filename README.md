@@ -6,8 +6,10 @@ Create a OuijaBoard class:
 
 ```
 OuijaBoard
+--------------
 String[] nouns
 String[] verbs
+--------------
 askQuestion(): void
 answer(): String
 ```
@@ -43,8 +45,10 @@ In `main`, call `addWords` on your OuijaBoard before the other methods.
 Create a SeatingChart class: 
 ```
 SeatingChart
+--------------
 ArrayList<String> students
 String[4][4] seats
+--------------
 SeatingChart(ArrayList<String> s)
 makeSeatingChart(): void
 printSeatingChart(): void
@@ -54,7 +58,7 @@ The `makeSeatingChart` method should go through the `seats` array and assign a r
 
 The `printSeatingChart` method should print out the seating chart in a way that reflects the 4x4 seating arrangement. For instance, the first row should be printed so that the four students’ names are on the same line, ideally separated by spaces.
 
-## Problem 3-3: Word Frequency
+## Problem 3-2: Word Frequency
 
 In the `main` method of this class, declare a variable that stores a small excerpt from a famous piece of literature.
 Then use the string split method to split the string into an array of strings. For example:
