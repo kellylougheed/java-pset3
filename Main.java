@@ -17,12 +17,7 @@ public class Main
         SeatingChart chart = new SeatingChart();
         // Make and print a seating chart
         
-        System.out.println("Problem 3-2: Budget Tracker");
-        // Create a BudgetTracker with a budget of $2000
-        // Make four purchases, repeating one category once
-        // Print the most frequency category
-        
-        System.out.println("Problem 3-3: Word Frequency");
+        System.out.println("Problem 3-2: Word Frequency");
         WordFrequency wf = new WordFrequency();
         String[] arg = {};
         wf.main(arg);
