@@ -26,7 +26,7 @@ Ask the Ouija Board a question: Will I make the varsity soccer team?
 Answer: you conquer everything
 ```
 
-Challenge (+2 EC): Change the arrays into ArrayLists and add a method called `addWords`. Before the user plays the Ouija Board, they can add their own nouns and verbs into the instance variables to customize the Ouija Board. The method should continually prompt the user to enter more nouns and then more verbs unless the user clarifies that they are finished adding words.
+**Challenge** (+2 EC): Change the arrays into ArrayLists and add a method called `addWords`. Before the user plays the Ouija Board, they can add their own nouns and verbs into the instance variables to customize the Ouija Board. The method should continually prompt the user to enter more nouns and then more verbs unless the user clarifies that they are finished adding words.
 
 Sample output:
 ```
@@ -54,7 +54,7 @@ makeSeatingChart(): void
 printSeatingChart(): void
 ```
 
-The `makeSeatingChart` method should go through the `seats` array and assign a random student to each seat -- but of course, a student should not be repeated. Consider duplicating the ArrayList and then randomly removing students from it as you assign them seats.
+The `makeSeatingChart` method should go through the `seats` array and assign a random student to each seat -- but of course, a student should not be repeated.
 
 The `printSeatingChart` method should print out the seating chart in a way that reflects the 4x4 seating arrangement. For instance, the first row should be printed so that the four students’ names are on the same line, ideally separated by spaces.
 
@@ -64,8 +64,8 @@ In the `main` method of this class, declare a variable that stores a small excer
 Then use the string split method to split the string into an array of strings. For example:
 
 ```
-String hey = “Hello world”;
-String[] words = hey.split(“ “); // returns [“hello”, “world”];
+String hey = "Hello world";
+String[] words = hey.split(" "); // returns ["hello", "world"];
 ```
 
 Initialize a HashMap with a String key and an Integer value.
