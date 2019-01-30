@@ -30,11 +30,11 @@ Answer: you conquer everything
 
 Sample output:
 ```
-Add a noun (or type “exit” to quit): you
-Add a noun (or type “exit” to quit): me
-Add a noun (or type “exit” to quit): exit
-Add a verb (or type “exit” to quit): kick
-Add a verb (or type “exit” to quit): exit
+Add a noun (or type "done"): you
+Add a noun (or type "done"): me
+Add a noun (or type "done"): done
+Add a verb (or type "done"): kick
+Add a verb (or type "done"): done
 Ask the Ouija Board a question: …
 ```
 
@@ -73,3 +73,9 @@ Initialize a HashMap with a String key and an Integer value.
 Loop through your array of words. As you loop, add each new word to the HashMap and set its value to 1. If you encounter a word that is already a key in the HashMap, increase its value by one.
 
 Determine and print one of the words with the highest frequency in your excerpt.
+
+## Problem 3-3: Latin Squares [Optional Challenge]
+
+Latin Squares is an optional extra credit challenge. You will need to create a new LatinSquares.java class and test out your methods in Main.java.
+
+[Click here to access the instructions!](https://docs.google.com/document/d/1q5ajNqH8Qq79B0P0HbT4xEMsUM09ChMpqOrYNq2fA8Y/)
