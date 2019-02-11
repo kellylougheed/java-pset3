@@ -58,6 +58,8 @@ The `makeSeatingChart` method should go through the `seats` array and assign a r
 
 The `printSeatingChart` method should print out the seating chart in a way that reflects the 4x4 seating arrangement. For instance, the first row should be printed so that the four students’ names are on the same line, ideally separated by spaces.
 
+In `Main`, create an instance of a SeatingChart with an ArrayList of 16 students. Create a seating chart and print it.
+
 ## Problem 3-2: Word Frequency
 
 In the `main` method of this class, declare a variable that stores a small excerpt from a famous piece of literature.
